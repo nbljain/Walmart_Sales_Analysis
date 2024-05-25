@@ -58,18 +58,18 @@ To start the analysis, you can open and run the Jupyter Notebook:
 
 ## Project Structure
 
-The structure is as follow:
+1. The structure is as follow:
       ```sh
-      walmart-sales-eda/
-      │
-      ├── data/
-      │   ├── walmart_sales.csv         # Walmart sales data
-      │
-      ├── notebooks/
-      │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
-      │
-      ├── requirements.txt              # Required Python packages                     
-      └── README.md                     # Project README file
+         walmart-sales-eda/
+         │
+         ├── data/
+         │   ├── walmart_sales.csv         # Walmart sales data
+         │
+         ├── notebooks/
+         │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
+         │
+         ├── requirements.txt              # Required Python packages                     
+         └── README.md                     # Project README file
 
 ## Key Findings
 
