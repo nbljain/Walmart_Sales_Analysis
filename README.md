@@ -57,19 +57,22 @@ To start the analysis, you can open and run the Jupyter Notebook:
 - Open the **Walmart_Sales_EDA.ipynb** notebook and run the cells to see the analysis.
 
 ## Project Structure
-```sh
-walmart-sales-eda/
-│
-├── data/
-│   ├── walmart_sales.csv         # Walmart sales data
-│
-├── notebooks/
-│   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
-│
-├── requirements.txt              # Required Python packages                     
-└── README.md                     # Project README file
+   ```sh
+   walmart-sales-eda/
+   │
+   ├── data/
+   │   ├── walmart_sales.csv         # Walmart sales data
+   │
+   ├── notebooks/
+   │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
+   │
+   ├── requirements.txt              # Required Python packages                     
+   └── README.md                     # Project README file
 
 ## Key Findings
+
+Some of the findings are:
+
 - City `Naypyitaw` has highest total revenue generated.
 - City `Yangon` has highest total sales.
 - City `Yangon` has highest total sales in city `B` with highest total revenue.
