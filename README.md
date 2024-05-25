@@ -43,3 +43,33 @@ To run this project, you need to have Python installed along with some essential
    ```sh
    git clone https://github.com/yourusername/walmart-sales-eda.git
    cd walmart-sales-eda
+
+2. Create environment:
+   ```sh
+   python -m venv env
+   source env/bin/activate
+
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+
+## Usage
+
+To start the analysis, you can open and run the Jupyter Notebook:
+
+- Open the **Walmart_Sales_EDA.ipynb** notebook and run the cells to see the analysis.
+
+walmart-sales-eda/
+│
+├── data/
+│   ├── walmart_sales.csv         # Walmart sales data
+│
+├── notebooks/
+│   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
+│
+├── images/
+│   ├── sales_trends.png          # Example plot images
+│
+├── requirements.txt              # Required Python packages
+├── README.md                     # Project README file
+└── LICENSE                       # License file
