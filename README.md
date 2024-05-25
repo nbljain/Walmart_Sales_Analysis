@@ -59,6 +59,8 @@ To start the analysis, you can open and run the Jupyter Notebook:
 
 - Open the **Walmart_Sales_EDA.ipynb** notebook and run the cells to see the analysis.
 
+## Project Structure
+```sh
 walmart-sales-eda/
 │
 ├── data/
