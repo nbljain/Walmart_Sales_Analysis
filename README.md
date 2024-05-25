@@ -22,14 +22,18 @@ This repository contains an exploratory data analysis (EDA) project on Walmart s
 
 The dataset used in this project includes historical sales data from Walmart. The data has the following columns:
 
-- `Store`: Store number
-- `Date`: Week
-- `Weekly_Sales`: Weekly sales
-- `Holiday_Flag`: Indicates whether the week is a special holiday week (1) or not (0)
-- `Temperature`: Temperature of the region
-- `Fuel_Price`: Cost of fuel in the region
-- `CPI`: Consumer Price Index
-- `Unemployment`: Unemployment rate
+- `InvoiceID`: Invoice id
+- `Branch`: City branch name
+- `City`: Name of the city
+- `Customer type`: Type of customer. Either Member or non-member(Normal)
+- `Gender`: Gender type. Male or Female
+- `Product line`: Product category
+- `Unit Price`: Product price
+- `Quantity`: Number of product purchased
+- `Date`: Date of purchase
+- `Time`: Time of purchase
+- `Payment`: Payment type
+- `Rating` - Rating of a product
 
 ## Installation
 
