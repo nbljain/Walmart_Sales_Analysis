@@ -57,17 +57,17 @@ To start the analysis, you can open and run the Jupyter Notebook:
 - Open the **Walmart_Sales_EDA.ipynb** notebook and run the cells to see the analysis.
 
 ## Project Structure
-   ```sh
-   walmart-sales-eda/
-   │
-   ├── data/
-   │   ├── walmart_sales.csv         # Walmart sales data
-   │
-   ├── notebooks/
-   │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
-   │
-   ├── requirements.txt              # Required Python packages                     
-   └── README.md                     # Project README file
+      ```sh
+      walmart-sales-eda/
+      │
+      ├── data/
+      │   ├── walmart_sales.csv         # Walmart sales data
+      │
+      ├── notebooks/
+      │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
+      │
+      ├── requirements.txt              # Required Python packages                     
+      └── README.md                     # Project README file
 
 ## Key Findings
 
@@ -88,4 +88,3 @@ Some of the findings are:
 - All three cities have highest total revenue from `Member` Customer type.
 - Product under category `Home and lifestyle` has maximum contribution towards sales and revenue made in **Month 3**.
 - Payment `Ewallet` has maximum contribution towards sales and revenue made from **Month 1**.
-
