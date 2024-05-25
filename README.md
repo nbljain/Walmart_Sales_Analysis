@@ -38,8 +38,8 @@ To run this project, you need to have Python installed along with some essential
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/nbljain/walmart-sales-eda.git
-   cd walmart-sales-eda
+   git clone https://github.com/nbljain/Walmart_Sales_Analysis.git
+   cd Walmart_Sales_Analysis
 
 2. Create environment:
    ```sh
@@ -54,39 +54,39 @@ To run this project, you need to have Python installed along with some essential
 
 To start the analysis, you can open and run the Jupyter Notebook:
 
-- Open the **Walmart_Sales_EDA.ipynb** notebook and run the cells to see the analysis.
+- Open the **Walmart_Sales_Analysis.ipynb** notebook and run the cells to see the analysis.
 
 ## Project Structure
 
-1. The structure is as follow:
+1. The structure is as follows:
       ```sh
-         walmart-sales-eda/
+         Walmart_Sales_Analysis/
          │
          ├── data/
-         │   ├── walmart_sales.csv         # Walmart sales data
+         │   ├── Walmart Sales.xlsx             # Walmart sales data
          │
          ├── notebooks/
-         │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
+         │   └── Walmart_Sales_Analysis.ipynb   # Jupyter notebook containing the EDA
          │
-         ├── requirements.txt              # Required Python packages                     
-         └── README.md                     # Project README file
+         ├── requirements.txt                   # Required Python packages                     
+         └── README.md                          # Project README file
 
 ## Key Findings
 
 Some of the findings are:
 
-- City `Naypyitaw` has highest total revenue generated.
-- City `Yangon` has highest total sales.
+- City `Naypyitaw` has the highest total revenue generated.
+- City `Yangon` has the highest total sales.
 - City `Yangon` has highest total sales in city `B` with highest total revenue.
-- City `Naypyitaw` has highest total sales in city `A` with highest total revenue.
+- City `Naypyitaw` has the highest total sales in the city `A` and has the highest total revenue.
 - City `Mandalay` has highest total sales in city `B` with highest total revenue.
-- City `Yangon` has highest total sales for the product under `Home and lifestyle` and lowest total sales for `Health and beauty` category.
-- City `Naypyitaw` has highest total sales for the product under `Food and beverages` and lowest total sales for `Home and lifestyle` category.
-- City `Mandalay` has highest total sales for the product under `Sports and travel` and lowest total sales for `Food and beverages` category.
-- City `Yangon` has highest total sales made under `Male` category where as other two cities have more sales made under `Female` category.
-- City `Yangon` has highest total revenue from payment type `Ewallet` and lowest from `Credit card`.
-- City `Naypyitaw` has highest total revenue from payment type `Cash` and lowest from `Credit card`.
-- City `Mandalay` has highest total revenue from payment type `Credit card` and lowest from `Ewallet`.
-- All three cities have highest total revenue from `Member` Customer type.
+- City `Yangon` has the highest total sales for the product under `Home and lifestyle` and the lowest total sales for the `Health and beauty` category.
+- City `Naypyitaw` has the highest total sales for the product under `Food and beverages` and the lowest for the `Home and lifestyle` category.
+- City `Mandalay` has the highest total sales for the product under `Sports and travel` and the lowest total sales for the `Food and beverages` category.
+- City `Yangon` has the highest total sales made under the `Male` category, whereas the other two cities have more sales made under the `Female` category.
+- City `Yangon` has the highest total revenue from payment type `Ewallet` and the lowest from `Credit card`.
+- City `Naypyitaw` has the highest total revenue from payment type `Cash` and the lowest from `Credit card`.
+- City `Mandalay` has the highest total revenue from payment type `Credit card` and the lowest from `Ewallet`.
+- All three cities have the highest total revenue from the `Member` Customer type.
 - Product under category `Home and lifestyle` has maximum contribution towards sales and revenue made in **Month 3**.
-- Payment `Ewallet` has maximum contribution towards sales and revenue made from **Month 1**.
+- Payment `Ewallet` has maximum contribution towards sales and revenue from **Month 1**.
