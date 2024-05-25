@@ -14,9 +14,6 @@ This repository contains an exploratory data analysis (EDA) project on Walmart s
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Key Findings](#key-findings)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Dataset
 
@@ -41,7 +38,7 @@ To run this project, you need to have Python installed along with some essential
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/walmart-sales-eda.git
+   git clone https://github.com/nbljain/walmart-sales-eda.git
    cd walmart-sales-eda
 
 2. Create environment:
@@ -69,9 +66,23 @@ walmart-sales-eda/
 ├── notebooks/
 │   └── Walmart_Sales_EDA.ipynb   # Jupyter notebook containing the EDA
 │
-├── images/
-│   ├── sales_trends.png          # Example plot images
-│
-├── requirements.txt              # Required Python packages
-├── README.md                     # Project README file
-└── LICENSE                       # License file
+├── requirements.txt              # Required Python packages                     
+└── README.md                     # Project README file
+
+## Key Findings
+- City `Naypyitaw` has highest total revenue generated.
+- City `Yangon` has highest total sales.
+- City `Yangon` has highest total sales in city `B` with highest total revenue.
+- City `Naypyitaw` has highest total sales in city `A` with highest total revenue.
+- City `Mandalay` has highest total sales in city `B` with highest total revenue.
+- City `Yangon` has highest total sales for the product under `Home and lifestyle` and lowest total sales for `Health and beauty` category.
+- City `Naypyitaw` has highest total sales for the product under `Food and beverages` and lowest total sales for `Home and lifestyle` category.
+- City `Mandalay` has highest total sales for the product under `Sports and travel` and lowest total sales for `Food and beverages` category.
+- City `Yangon` has highest total sales made under `Male` category where as other two cities have more sales made under `Female` category.
+- City `Yangon` has highest total revenue from payment type `Ewallet` and lowest from `Credit card`.
+- City `Naypyitaw` has highest total revenue from payment type `Cash` and lowest from `Credit card`.
+- City `Mandalay` has highest total revenue from payment type `Credit card` and lowest from `Ewallet`.
+- All three cities have highest total revenue from `Member` Customer type.
+- Product under category `Home and lifestyle` has maximum contribution towards sales and revenue made in **Month 3**.
+- Payment `Ewallet` has maximum contribution towards sales and revenue made from **Month 1**.
+
